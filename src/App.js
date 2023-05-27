@@ -11,6 +11,7 @@ import Image from "./image";
 import Footer from "./footer";
 import { scroller } from "react-scroll";
 import Card from './card';
+import Signin from "./signform";
 import Team from "./Team";
 import { Helmet } from "react-helmet";
 import Gallery from './gallery';
@@ -52,6 +53,9 @@ function App() {
     return <Team/>;
   } else if(currentPath === "/gallery") {
     return <Gallery/>;
+  }
+    else if(currentPath === "/Signin") {
+      return <Signin/>;
   } else{
     return (
     <>
@@ -109,8 +113,8 @@ function App() {
                 Contact
               </a>
             </li>
-            <li className=" pr-2 pt-4 pb-4  rounded relative" onMouseLeave={hideDropdown}>
-            <a href="#" className="hov under size icon-color " onMouseEnter={toggleDropdown} >
+            <li className=" pr-2 pt-4 pb-4  rounded relative">
+            <a href="/Signin" className="hov under size icon-color ">
               Login   </a>
            
                   </li>
