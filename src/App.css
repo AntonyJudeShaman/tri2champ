@@ -8,7 +8,23 @@
   background-color: cadetblue;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
 
+::-webkit-scrollbar-track {
+  background: #f2f2f2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(1, 255, 179, 0.959);
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(1, 217, 255, 0.911);
+  border-radius: 12px;
+}
 
 .bg-image {
   opacity: 0.9; 
@@ -246,6 +262,8 @@
   margin: 0 auto; 
   background-color: #ffffff;
 }
+
+
 
 
   

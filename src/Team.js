@@ -8,6 +8,7 @@ import Teams_section5 from "./teams_section5";
 import Footer from "./footer";
 import { scroller } from "react-scroll";
 import { Helmet } from "react-helmet";
+import Navbar from "./nav";
 
 
 function Team() {
@@ -22,51 +23,8 @@ function Team() {
  
   return (
     <>
-       <Helmet>
-        <title>Team</title>
-        <link rel="icon" type="image/png" href="logo.png" />
-      </Helmet>
-      <div>
-        <nav
-          className="flex border-b-2  border-sky-400 items-center justify-between flex-wrap p-2 navbar bg-gradient-to-r from-zinc-900  via-indigo-950 to-zinc-900"
-          id="nav1"
-        >
-          <a
-            href="App"
-            className="flex items-center flex-shrink-0 mr-6 justify-start col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2"
-          >
-            <img src={logo} alt="Logo" className="logo-image" style={{}} />
-          </a>
-          <div className="flex-grow ">
-            <ul className="flex justify-end ">
-            <li className="pr-9 pt-4 pb-4">
-              <a href="./App" className="hov under size">
-                Home
-              </a>
-            </li>
-            
-             
-              <li className=" pr-9 pt-4 pb-4">
-                <a
-                  href="./gallery"
-                  className="hov under size"
-                  onClick={() => scrollTo("")}
-                >
-                  Gallery
-                </a>
-              </li>
-             
-              <li className="  pt-4 pb-4">
-                <a
-                  href="#form"
-                  className="hov under size"
-                  onClick={() => scrollTo("")}
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <div style={{ fontSize: "120%" }}>
+        <Navbar/>
+        <div style={{ fontSize: "120%", textAlign:'justify' }}>
           <Team_section1 />
           <Teams_section2 />
           <Teams_section3 />
@@ -74,7 +32,7 @@ function Team() {
           <Teams_section5 />
           <Footer />
         </div>
-      </div>
+      
     </>
   );
   }

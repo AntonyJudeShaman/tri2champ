@@ -15,7 +15,7 @@ function Section1() {
         <div className="glitter ttt padd pt-2 pb-3 bg-gradient-to-r text-cyan-500 text-blue-500">
        <b style={{fontSize:'130%'}}> Tri2champ Swimming Training Plan </b>
         </div>
-        <p className="padd ttt pb-10">
+        <p className="padd ttt pb-10" style={{textAlign:'justify'}}>
         Master the Water At Tri2champ, we know
         that swimming is a vital skill for triathlon success. That’s why we have
         designed a swimming training plan that will help you improve your

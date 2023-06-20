@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AJAX Example</title>
+  <script>
+    function loadContent() {
+      var xhr = new XMLHttpRequest();
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+          document.getElementById("result").innerHTML = xhr.responseText;
+        }
+      };
+      xhr.open("GET", "content.html", true);
+      xhr.send();
+    }
+  </script>
+</head>
+<body>
+  <button onclick="loadContent()">Load Content</button>
+  <div id="result"></div>
+</body>
+</html>

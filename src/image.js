@@ -5,7 +5,7 @@ import "./image.css";
 function Image() {
   return (
     <>
-      <div className="bg-blue-50">
+      <div className="bg-blue-50" style={{textAlign:'justify'}}>
         <p className="text pr-4" id="image" style={{ paddingTop: "6%" }}>
           A personalized training plan that is tailored to your strengths,
           weaknesses, and objectives A team of certified and experienced coaches
@@ -20,7 +20,7 @@ function Image() {
             style={{ maxHeight: "10%", maxWidth: "70%" }}
             className="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 text rounded mx-auto d-block pt-5 pb-5"
           />
-          <p className="text pb-10 pr-10">
+          <p className="text pb-10 pr-10" style={{textAlign:'justify'}}>
             A comprehensive nutrition program that will optimize your health and
             performance A supportive and friendly environment that will motivate
             you and keep you accountable A network of sponsors and partners who

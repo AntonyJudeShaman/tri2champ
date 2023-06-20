@@ -5,7 +5,7 @@ import "./teams_section2.css";
 function teams_section2() {
   return (
     <div
-      className="bg-zinc-250 border-2 border-zinc-800"
+      className="bg-teal-400 border-2 border-zinc-800"
     >
       <div className="para">
         <div className="text col-7 col-md-7 col-xl-7 col-xxl-7 col-lg-7">

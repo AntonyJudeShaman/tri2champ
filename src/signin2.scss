@@ -298,9 +298,9 @@ $color_abbey_approx: #000000;
   }
 }
 
-.register-right {
+.register-right1 {
   margin-left: -1%;
-  margin-bottom: -10%;
+  margin-bottom: 0%;
   background: $color_alabaster_approx;
   background-size: cover;
   border-top-left-radius: 20% 30%;
@@ -310,10 +310,10 @@ $color_abbey_approx: #000000;
 }
 
 @media (max-width: 768px) {
-  .register-right {
+  .register-right1 {
     margin-left: -1%;
     margin-top: 2%;
-    margin-bottom: 0%;
+    margin-bottom: 10%;
     background: transparent;
     background-size: cover;
     border-top-left-radius: 20% 30%;

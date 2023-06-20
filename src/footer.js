@@ -15,8 +15,8 @@ function Footer() {
   };
 
   return (
-    <>
-      <div className="footer-container bg-gradient-to-b from-teal-900 to-zinc-950  border-indigo-300">
+    <div className="footer-wrapper">
+      <div className="footer-container bg-gradient-to-b from-teal-900 to-zinc-950 border-t-2 bottom-0  border-indigo-300">
         <div className="footer-left col-3 col-sm-3 col-md-3 col-lg-3">
           <a href="#nav1" onClick={scrollToTop}>
             <img src={logo} alt="Logo" className="footer-logo" />
@@ -27,7 +27,7 @@ function Footer() {
             className="copy2 "
             style={{ fontSize: "0.6rem", paddingBottom: "" }}
           ></p>
-          <p className="copy1 ">
+          <p className="copy1 " style={{textAlign:'justify'}}>
             Tri2champ is a triathlon training academy that specializes in
             coaching and mentoring elite triathletes who aspire to compete at
             the highest level. Whether you are aiming for the Olympics, the
@@ -67,7 +67,7 @@ function Footer() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

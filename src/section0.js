@@ -13,7 +13,7 @@ function Section0() {
           <div className="glitter pt-3 pb-3 bg-gradient-to-r text-cyan-500 text-blue-500">
           <b style={{fontSize:'130%'}}>Tri2champ Cycling Training Plan</b>
           </div>
-          <p className="pb-3 pr-4">
+          <p className="pb-3 pr-8" style={{textAlign:'justify'}}>
             Boost Your Bike Performance At Tri2champ, we know that cycling is a
             crucial component of triathlon success. That’s why we have designed
             a cycling training plan that will help you improve your power,

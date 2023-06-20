@@ -11,7 +11,7 @@ function Section2() {
           <div className="glitter pt-3 pb-3 bg-gradient-to-r text-cyan-500 text-blue-500">
           <b style={{fontSize:'130%'}}>Tri2champ Running Training Plan</b>
           </div>
-          <p className="pb-3">
+          <p className="pb-3" style={{textAlign:'justify'}}>
             Run Faster and Stronger At Tri2champ, we know that running is a key
             skill for triathlon success. That’s why we have designed a running
             training plan that will help you improve your speed, endurance,
